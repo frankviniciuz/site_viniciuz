@@ -1,0 +1,184 @@
+/*CABEÇALHO */
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+body{ 
+    margin-left: 5px;
+}
+
+header {
+    background-color: rgba(255,255,255);
+}
+
+header, hr {
+    margin
+}
+
+header h1 {
+    color: #B9C3CD;
+    margin: 20px 0 10px 5px;
+    font-size: 50px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+header nav li {
+    display:inline;
+    margin: 0 0 100px 150px;
+}
+
+header li a {
+    
+    color:#B9C3CD;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+header, header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container, .section {
+    max-width: 1280px;
+    width:100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header h1 {
+    text-decoration:overline;
+}
+
+
+
+/*SEÇÕES*/
+
+section .container nav li  {
+    display:inline;
+    margin: 0 0 100px 150px;
+}
+
+section .container nav li a {
+    text-align:center;
+    font-size:11px;
+    list-style-type: none;
+    color: #B9C3CD;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform:uppercase;
+    
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#seemore {
+    margin: 100px 10px 10px 1200px;
+    padding: 1px 30px;
+    border:10px solid #fff;
+    background-color: #B9C3CD;
+    color: rgba(255,255,255);
+    text-decoration:none;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform:uppercase;
+}
+
+section .container img {
+    margin: 0 0 10px 0;
+}
+
+body hr {
+    margin: 15px 0;
+}
+
+
+
+section img {
+    height:295px;
+}
+
+section .contact-methods img{
+    height:30px;
+}
+
+
+
+/*SEÇÃO CONTATOS*/
+
+.container .contact-methods {
+    display:block;
+}
+
+.contact-methods {
+    display:flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display:block;
+    width:320;
+    margin-bottom:8px;
+    padding: 8px;
+}
+
+section .container h3 {
+    font-family:'Allerta Stencil', sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    color: rgba(255,255,255);
+    background-color: #B9C3CD;
+    padding: 160px 70px;
+    margin: 0px 0px;
+}
+
+section .container h4 {
+    font-family:'Allerta Stencil', sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    color: rgba(255,255,255);
+    background-color: #B9C3CD;
+}
+.social-links Li {
+    display: inline;
+    
+}
+
+section .container h3 , section .container h4 {
+    font-family: 'Allerta Stencil', sans-serif;
+    text-decoration: none;
+}
+
+#contact h3{
+    border: 4px solid #9ea6af;
+}
+
+
+
+form input, textarea, h4 {
+    color:rgba(255,255,255);
+    background-color: #B9C3CD;
+    border: 4px solid #9ea6af;
+    
+}
+
+
+
